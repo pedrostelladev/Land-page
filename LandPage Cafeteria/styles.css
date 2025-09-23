@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Teko:wght@300..700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +10,14 @@
 body {
     background:#1F1517;
     color:#ffffff ;
+    
 }
+
+html {
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+}
+
 
 a {
     color:#ffffff;
@@ -17,4 +26,29 @@ a {
 
 ul {
     list-style: none;
+}
+
+nav {
+    max-width: 1120px;
+    margin: auto;
+    padding: 1.5rem 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: Teko, sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    color: #fff2e7;
+    opacity: 50%;
 }
