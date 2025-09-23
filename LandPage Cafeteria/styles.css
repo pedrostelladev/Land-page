@@ -2,4 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+}
+
+body {
+    background:#1F1517;
+    color:#ffffff ;
+}
+
+a {
+    color:#ffffff;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
 }
